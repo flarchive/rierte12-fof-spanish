@@ -1,0 +1,32 @@
+fof-merge-discussions:
+  forum:
+    modal:
+      title: Unir hilos
+
+      type_target_label: Unir aquí
+      type_target_help_text: Selecciona los hilos a <b>{title}</b>.
+
+      type_from_label: Unir este hilo con otra
+      type_from_help_text: Selecciona el destino para unir con <b>{title}</b>.
+
+      load_preview_button: Previsualizar
+      submit_button: => fof-merge-discussions.ref.merge
+
+    discussion:
+      merge: => fof-merge-discussions.ref.merge
+
+    post:
+      merged: Unido  <b>{count}</b> desde {titles}.|Unido <b>{count}</b> desde {titles}.
+
+  admin:
+    permissions:
+      merge_discussions_label: Unir hilos
+
+  api:
+    error:
+      merging_failed: Fallo al unir los hilos.
+      updating_failed: Fallo al actualizar los temas.
+      deleting_failed: Fallo al eliminar un hilo vacío.
+
+  ref:
+    merge: Unir

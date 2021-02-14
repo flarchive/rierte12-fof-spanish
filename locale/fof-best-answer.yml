@@ -1,0 +1,63 @@
+fof-best-answer:
+  admin:
+    permissions:
+      best_answer: Seleccionar respuesta (creador del tema)
+      best_answer_not_own_discussion: Seleccionar respuesta (demás usuarios)
+    settings:
+      label:
+        general: General
+        reminders: Recordatorios
+        advanced: Avanzado
+        reminders_notice: Para que los recordatorios funcionen correctamente debes haber configurado el adminsitrador de tareas de Flarum correctamente.
+      allow_select_own_post: Permitir que los usuarios seleccionen sus propias respuestas
+      select_best_answer_reminder_days: Recordar a los usuarios que seleccionen las repuestas correctas después de X días
+      schedule_on_one_server: Usar la directiva 'onOneServer()' como administrador de tareas (requisitos Redis/Memcache)
+      schedule_stop_overnight: Evitar el proceso de tareas durante el periodo nocturno (9pm - 8am horario del servidor)
+      schedule_log_output: Añadir eventos del administrador de tareas en los logs
+      remind_tag_ids: Para excluir categorias, introduces sus IDs (separadas por comas)
+      use_alt_ui: Usar tema alternativo (ajustes de respuesta correcta en el pie de página)
+  forum:
+    answered_badge: Respondida
+    this_best_answer: Seleccionar como respuesta correcta
+    remove_best_answer: Deseleccionar como respuesta correcta
+    best_answer_button: Respuesta
+    best_answer_label: seleccionada por <a>{username}</a> {time_set}
+    errors:
+      mismatch: "El post seleccionado no existe."
+
+    notification:
+      best_answer_in_discussion: "{username} ha seleccionado la respuesta correcta"
+      content: Si se ha respondido a tu problema, selecciona la mejor respuesta
+      awarded: Tu post ha sido establecido como respuesta por {username}
+
+      preferences:
+        awarded_best_answer: Cuando alguien selecciona mi post como respuesta
+        best_answer_in_discussion: Cuando se selecciona una respuesta como correcta en una discusión en la que participo
+  email:
+    subject:
+      awarded: Tu post ha sido seleccionado como respuesta por {display_name}
+      ba-set: {display_name} ha seleccionado una respuesta como correcta
+      select: ¿Se ha respondido tu pregunta?
+    body:
+      awarded: |
+        Hola {recipient_display_name},
+
+        Enhorabuena, {actor_display_name} ha seleccionado tu post de '{discussion_title}' como respuesta. Gracias por tu ayuda.
+
+        Compruebalo aquí: {discussion_url}
+      ba-set: |
+        Hola {recipient_display_name},
+
+        {actor_display_name} ha establecido una respuesta en '{discussion_title}', en la que has participado.
+
+        Echale un vistazo: {discussion_url}
+      select: |
+        Hola {recipient_display_name},
+
+        Solor para comprobar; seguramente tengas muchas repuestas en '{discussion_title}'. Esperemos que alguna te pueda haber ayudado
+
+        Si ha sido así, puedes ser de gran ayuda si marcas una respuesta como correcta. De esta forma puedes ser de gran ayuda a los demás usuarios y agradecer al autor del post
+
+        Visita tu hilo: {discussion_url}, y selecciona la respusta correcta.
+
+        Thanks!

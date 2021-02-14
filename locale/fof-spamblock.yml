@@ -1,0 +1,9 @@
+fof-spamblock:
+  forum:
+    user_controls:
+      spammer_button: Spammer
+      spammer_confirmation: "Estas seguro que quieres \n• ocultar todas la discusiones y posts \n• [flarum/suspend] Suspender usuario"
+
+  admin:
+    permissions:
+      spamblock_users_label: Marcar como spammer

@@ -1,0 +1,11 @@
+fof-user-bio:
+    admin:
+        permission:
+            view: Ver bio
+            editOwn: Editar su propia bio
+            editAny: Editar cualquier bio
+        setting:
+            bioLimit: Limite de caracteres para la bio
+
+    forum:
+        userbioPlaceholder: Write algo sobre ti
