@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of rierte12/fof-spanish.** Not for installation: use [Packagist](https://packagist.org/packages/rierte12/fof-spanish) or the [upstream repository](https://github.com/rierte12/FOF-spanish).
 
-**0** versions archived · Latest: [`v0.1.0`](https://github.com/flarchive/rierte12-fof-spanish/tree/archive/v0.1.0) · License: `MIT` · Flarum: `^0.1.0-beta.13`
+**1** versions archived · Latest: [`v0.1.0`](https://github.com/flarchive/rierte12-fof-spanish/tree/archive/v0.1.0) · License: `MIT` · Flarum: `^0.1.0-beta.13`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2021-02-14 | `^0.1.0-beta.13` | [Browse](https://github.com/flarchive/rierte12-fof-spanish/tree/archive/v0.1.0) |
 
 Catalog entry: [packages/rierte12-fof-spanish.json](https://github.com/flarchive/archive-index/blob/main/packages/rierte12-fof-spanish.json)
 
